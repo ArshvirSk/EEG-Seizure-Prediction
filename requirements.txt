@@ -1,0 +1,22 @@
+# Core Deep Learning
+tensorflow>=2.15.0
+keras>=3.0.0
+
+# Data Processing
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# EEG Processing
+mne>=1.5.0
+
+# Machine Learning Utilities
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter (optional, for EEG.ipynb)
+jupyter>=1.0.0
+ipykernel>=6.0.0

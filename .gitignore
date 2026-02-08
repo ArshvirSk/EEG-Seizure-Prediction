@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files (too large for git)
+data/raw/
+data/processed/
+*.edf
+*.npy
+
+# Model checkpoints (keep only final models)
+saved_models/cnn/
+saved_models/lstm/
+saved_models/cnn_lstm/
+saved_models/cnn_transformer/
+
+# Logs
+*.log
+saved_models/*/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
