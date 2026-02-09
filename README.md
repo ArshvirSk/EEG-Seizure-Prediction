@@ -3,7 +3,7 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.15+](https://img.shields.io/badge/tensorflow-2.15+-orange.svg)](https://tensorflow.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/eeg-seizure-prediction/blob/main/EEG_Seizure_Prediction_Colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ArshvirSk/eeg-seizure-prediction/blob/main/EEG_Seizure_Prediction_Colab.ipynb)
 
 A deep learning framework for predicting epileptic seizures from pediatric EEG recordings using a CNN + Transformer architecture.
 
