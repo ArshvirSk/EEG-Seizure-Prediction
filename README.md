@@ -3,8 +3,16 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.15+](https://img.shields.io/badge/tensorflow-2.15+-orange.svg)](https://tensorflow.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/eeg-seizure-prediction/blob/main/EEG_Seizure_Prediction_Colab.ipynb)
 
 A deep learning framework for predicting epileptic seizures from pediatric EEG recordings using a CNN + Transformer architecture.
+
+## 🚀 Try it Now
+
+**Run in Google Colab** (no installation required):
+- Open [`EEG_Seizure_Prediction_Colab.ipynb`](EEG_Seizure_Prediction_Colab.ipynb) in Colab
+- Run with synthetic data or download real CHB-MIT data
+- Train models on free GPU
 
 ## 📚 Documentation
 
@@ -70,6 +78,7 @@ Code/
 ├── config.py                 # Configuration settings
 ├── run_experiment.py         # Main training script
 ├── inference.py              # Inference/deployment script
+├── EEG_Seizure_Prediction_Colab.ipynb  # Google Colab notebook
 ├── data/
 │   ├── download.py           # CHB-MIT dataset download
 │   ├── preprocessing.py      # EEG preprocessing
@@ -82,8 +91,11 @@ Code/
 ├── training/
 │   ├── trainer.py            # Training loop and callbacks
 │   └── metrics.py            # Evaluation metrics
-└── utils/
-    └── visualization.py      # Plotting functions
+├── utils/
+│   └── visualization.py      # Plotting functions
+├── saved_models/             # Trained model files (.keras)
+├── results/                  # Training plots and metrics
+└── docs/                     # Documentation
 ```
 
 ## Model Architecture
